@@ -14,9 +14,11 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   // Automatically load required grunt tasks
-  require('jit-grunt')(grunt, {
-    useminPrepare: 'grunt-usemin'
-  });
+// Automatically load required grunt tasks
+require('jit-grunt')(grunt, {
+useminPrepare: 'grunt-usemin',
+buildcontrol: 'grunt-build-control'
+});
 
   // Configurable paths
   var config = {
@@ -29,6 +31,25 @@ module.exports = function (grunt) {
 
     // Project settings
     config: config,
+
+// Define the configuration for all the tasks
+grunt.initConfig({
+// Project settings
+config: config,
+buildcontrol: {
+options: {
+dir: 'dist',
+commit: true,
+push: true,
+message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+},
+pages: {
+options: {
+remote: 'git@github.com:MikeGalli/MikeGalli.github.io.git',
+branch: 'master'
+}
+}
+},
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
