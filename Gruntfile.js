@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       pages: {
         options: {
           remote: 'git@github.com:MikeGalli/MikeGalli.github.io.git',
-          branch: 'gh-pages'
+          branch: 'master'
         }
       }
     },
