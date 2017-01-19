@@ -1,0 +1,1 @@
+"use strict";console.log("'Allo 'Allo!"),$(document).ready(function(){var a=$(".well").map(function(){return $(this).height()}).get(),b=Math.max.apply(null,a);$(".well").height(b)});
