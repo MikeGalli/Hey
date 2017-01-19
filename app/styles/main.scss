@@ -67,8 +67,29 @@ body {
     margin-top: 28px;
   }
 }
-
+.box {
+  margin: 2em;
+}
 /* Responsive: Portrait tablets and up */
+
+@media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.is-table-row .box {
+  background: none;
+  position: static;
+}
+.is-table-row [class*="col-"] {
+  background: #fff;
+}
 
 @media screen and (min-width: 768px) {
   .container {
