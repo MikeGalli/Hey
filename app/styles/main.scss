@@ -4,6 +4,14 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+//Start Site Specific Partials
+//Start Site Specific Partials
+@import "flexbox";
+//END Site Specific Partials
+//END Site Specific Partials
+.landing {
+  display:inline;
+}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
