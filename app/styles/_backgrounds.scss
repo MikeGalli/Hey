@@ -1,0 +1,46 @@
+//#hello {
+//min-height: 400px;
+//padding-bottom: 50px;
+//}
+
+#toppic .top {
+    height: 400px;
+    background: url("/images/Bkg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.col-sm-12 col-md-6 col-lg-6{
+  opacity: 0.2;
+}
+.photocard .well {
+  opacity: 0.2;
+  color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
+  border-color: #222222;
+}
+.xcontainer {
+  //opacity: 0.2;
+}
+.toppic {
+  //opacity: 0.2;
+}
+.top {
+  //opacity: 0.2;
+}
+.photocard {
+  //opacity: 0.2;
+}
+.well {
+  //opacity: 0.2;
+}
+.row is-flex {
+  //opacity: 0.2;
+}
