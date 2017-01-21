@@ -10,7 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "_backgrounds";
 @import "_jumbotronmike";
 @import "navbaradditions";
-///////////////////////////////@import "statement";
+@import "statement";
 //END Site Specific Partials
 //END Site Specific Partials
 
@@ -24,7 +24,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Space out content a bit*/
 body {
-  padding-top: 20px;
+  //padding-top: 20px;
   padding-bottom: 20px;
 }
 

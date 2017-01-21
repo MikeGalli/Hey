@@ -1,5 +1,5 @@
 
-.well {
+.wellcom {
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e8e8e8), to(#f5f5f5));
   background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
   background-image: -moz-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
@@ -14,82 +14,43 @@
 
 
 
-.photocard {
-  height: 700px;
-  margin-bottom: 0;
-  background: url("img/shawn_tunnel.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.photocard .well {
-  color: #eeeeee;
-  background-color: rgba(0, 0, 0, 0.7);
+
+.landing .wellcom {
+  height: 300px;
+  margin: 9px;
+  margin-top:40px;
+  padding: 11px;
+  color: rgba(184, 255, 250, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   background-image: none;
   border-color: #222222;
 }
 
-.photocard .well h1 {
-  color: #ffcc00;
+.landing .wellcom h1 {
+  color: rgba(255, 157, 0, 0.80);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-.photocard .well a {
+.landing .wellcom a {
   color: #ffcc00;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-#web .well {
-  background: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: #222222;
-  height: 100%;
-}
-#web .well .project-screenshot {
-  width: 100%;
-  height: auto;
-}
-#web .well .sm-project-screenshot {
-  width: 100%;
-  height: auto;
-}
-#web .well .project-thumb {
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  border-top-right-radius: 150px;
-  border-top-left-radius: 150px;
-  border-bottom-right-radius: 150px;
-  border-bottom-left-radius: 150px;
-  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
-}
-/*#web .well .pbslm {
-  background: url(img/tearsheets/thumbs/pbslm.jpg) no-repeat center center scroll;
-}
-#web .well .wiser {
-  background: url(img/tearsheets/thumbs/wiser.jpg) no-repeat center center scroll;
-}
-#web .well .pbstl {
-  background: url(img/tearsheets/thumbs/pbstl.jpg) no-repeat center center scroll;
-}
 
-*/
 #welcome .row:before, .row:after {
-     float: both;
-         content: " ";
+     //float: both;
+         //content: " ";
 }
 
-#network-presence .contact-footer .well {
+#network-presence .contact-footer .wellcom {
   background: none;
   border: none;
   margin-top: 500px;
   text-align: right;
 }
-#network-presence .contact-footer .well a {
+#network-presence .contact-footer .wellcom a {
   color: #ffcc00;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
