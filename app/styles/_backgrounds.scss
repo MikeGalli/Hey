@@ -12,6 +12,15 @@
   background-size: cover;
 }
 
+#toppicdetails .top {
+  height: 420px;
+  background: url("/images/Bkg_Dark.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #headshot {
   width: 40%;
   margin: 4rem;
@@ -21,11 +30,11 @@
 }
 
 .box {
-  background: rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.6);
 }
 
 .col-sm-12 col-md-6 col-lg-6 {
-  background:linear-gradient(to top,rgba(0,0,0,0.2) 50%, transparent 50%),linear-gradient(to left,rgba(0,0,0,0.2) 50%, transparent 50%)
+  background-color:linear-gradient(to top,rgba(0,0,0,0.2) 50%, transparent 50%),linear-gradient(to left,rgba(0,0,0,0.2) 50%, transparent 50%)
 }
 
 .photocard .well {
