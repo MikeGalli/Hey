@@ -14,10 +14,24 @@
     margin-left: 4rem;
     //left: 0; top: 0; right: 0; bottom: 0;
 }
-
+.col-md-6 {
+  width: 50%;
+}
 #detail01 {
+  width: 65%;
+  //color: rgba(184, 255, 250, 0.7);
+  position: relative;
+  float: left;
+  padding: 4rem;
+}
+#detail02 {
+  width: 35%;
+  //color: rgba(184, 255, 250, 0.7);
+  position: relative;
+  float: right;
   padding: 4rem;
 }
 .screenshotsweb .box {
   background: none;
 }
+// style="width:20%"
