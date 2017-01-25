@@ -5,7 +5,7 @@
 
 #toppic .top {
   height: 420px;
-  background: url("/images/Bkg.jpg") no-repeat center center fixed;
+  background: url("/images/Bkg.jpg");  //no-repeat center center fixed
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@
 
 #toppicdetails .top {
   height: 420px;
-  background: url("/images/Bkg_Dark.jpg") no-repeat center center fixed;
+  background: url("/images/Bkg_Dark.jpg");  //no-repeat center center fixed
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
