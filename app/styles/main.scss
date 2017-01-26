@@ -7,11 +7,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 //Start Site Specific Partials
 //Start Site Specific Partials
 @import "flexbox";
-@import "_backgrounds";
-@import "_jumbotronmike";
-@import "navbaradditions";
-@import "statement";
 @import "footer";
+@import "landingarea";
+@import "navbaradditions";
 @import "samples";
 //END Site Specific Partials
 //END Site Specific Partials
