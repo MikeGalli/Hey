@@ -1,35 +1,51 @@
-
+.details {
+  padding-top: 4rem;
+}
 .header {
     position: relative;
 }
-.capstone {
-  //padding-top: 2rem;
+
+.details .is-flex {
+  padding-top: 2rem;
 }
 
-.instructions {
+.details p {
+  padding: 1rem;
   color: rgba(184, 255, 250, 0.7);
       background-color: rgba(0, 0, 0, 0.6);
+}
+.details h1 {
+  color: rgba(184, 255, 250, 0.7);
+      background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.instructions {
+  //color: rgba(184, 255, 250, 0.7);
+      //background-color: rgba(0, 0, 0, 0.6);
       //background-image: none;
     //position: relative;
-    margin-left: 4rem;
+    padding-left: 4rem;
     //left: 0; top: 0; right: 0; bottom: 0;
 }
 .col-md-6 {
-  width: 50%;
+  //width: 50%;
 }
 #detail01 {
-  width: 65%;
+  width: 100%;
   //color: rgba(184, 255, 250, 0.7);
   position: relative;
   float: left;
-  padding: 4rem;
+  padding: 1rem;
 }
 #detail02 {
-  width: 35%;
+  width: 100%;
   //color: rgba(184, 255, 250, 0.7);
   position: relative;
   float: right;
-  padding: 4rem;
+  padding: 1rem;
 }
 .screenshotsweb .box {
   background: none;

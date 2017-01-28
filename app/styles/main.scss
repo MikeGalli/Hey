@@ -10,7 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "footer";
 @import "landingarea";
 @import "navbaradditions";
-@import "samples";
+@import "details";
 //END Site Specific Partials
 //END Site Specific Partials
 
@@ -83,7 +83,7 @@ body {
   }
 }
 .box {
-  margin: 2em;
+//  margin: 2em;
 }
 /* Responsive: Portrait tablets and up */
 

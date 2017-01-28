@@ -1,5 +1,6 @@
-.affix-top {
-  position: relative;
+.navbar-static-top {
+  top: 0;
+  position: inherit;
   margin-bottom: 0;
 }
 
@@ -8,7 +9,6 @@
   position: fixed;
   min-width: 100%;
 }
-
 
 
 .instructions p {
