@@ -28,6 +28,16 @@
   background-size: 100%;
 }
 
+@media (max-width: 46em) {
+.topphoto {
+  background-size: cover;
+//display: none;
+}
+}
+
+
+
+
 #toppicdetails .top {
   height: 420px;
   background: url("/images/Bkg_Dark.jpg");

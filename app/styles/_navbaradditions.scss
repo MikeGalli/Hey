@@ -14,3 +14,16 @@
 .instructions p {
     margin: 0;
 }
+
+@media (max-width: 46em) {
+.affix-top {
+position: static;
+top: 0;
+}
+}
+
+@media (max-width: 46em) {
+.instructions {
+display: none;
+}
+}
