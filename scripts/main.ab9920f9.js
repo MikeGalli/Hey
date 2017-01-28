@@ -1,1 +1,0 @@
-"use strict";console.log("'Allo 'Allo!"),$(document).ready(function(){var a=$("container-fluid").map(function(){return $(this).height()}).get(),b=Math.max.apply(null,a);$("container-fluid").height(b)});
