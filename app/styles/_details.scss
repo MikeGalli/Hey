@@ -6,19 +6,27 @@
 }
 
 .details .is-flex {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
-.details p {
+.details .lead {
   padding: 1rem;
   color: rgba(184, 255, 250, 0.7);
       background-color: rgba(0, 0, 0, 0.6);
 }
 .details h1 {
   color: rgba(184, 255, 250, 0.7);
-      background-color: rgba(0, 0, 0, 0.6);
+      //background-color: rgba(0, 0, 0, 0.6);
 }
-
+.detailstopphoto {
+  //height: 175px;
+  background: url("/images/27197782485_dac412efd5_o_V3.jpg") no-repeat center center fixed;
+  //no-repeat center center fixed
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+}
 
 
 
