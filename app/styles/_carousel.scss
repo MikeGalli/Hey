@@ -1,0 +1,93 @@
+//#map-container { height: 180px; }
+
+/*.affix {
+    top: 30rem;
+    width: 100%;
+    z-index: 999;
+}*/
+
+.affix + .container-fluid {
+    padding-top: 10px;
+}
+/* Carousel Styling */
+
+.carousel-caption p {
+    padding-bottom: 0px;
+    margin: 0 0 0px;
+  }
+.slide1{
+  background-image: url('../images/carousel/API_ProjectPlanning_Page_1.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide2{
+  background-image: url('../images/carousel/API_ProjectPlanning_Page_2.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide3{
+  background-image: url('../images/carousel/API_ProjectPlanning_Page_3.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide4{
+  background-image: url('../img/carousel/API_ProjectPlanning_Page_4.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide5{
+  background-image: url('../img/carousel/Mount_Rainier_and_lake_reflection.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide6{
+  background-image: url('../img/carousel/Mount_Rainier_from_Paradise_meadow,_August_2014_-_03.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide7{
+  background-image: url('../img/carousel/Mount_Rainier_sunset_and_clouds.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.slide8{
+  background-image: url('../img/carousel/Nisqually_River_near_Cougar_Rock_01.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.carousel-caption h1{
+  /*background-color: rgba(153, 190, 249, 0.4); */
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  /*padding-bottom: .4em;*/
+}
+.carousel-caption p{
+/*  padding-bottom: 10px;*/
+  background-color: rgba(153, 190, 249, 0.4);
+  width: 100;
+  font-size: 2em;
+}
+.carousel-indicators {
+    bottom: 2px;
+  }
+
+  .imgSize {
+    height: 20px;
+    overflow-y: hidden;
+  }
